@@ -5,8 +5,6 @@
 -- ] + e/w/d - next error/warning/diagnostic
 -- [ + e/w/d - prev error/warning/diagnostic
 
--- Map "jk" to escape in normal mode
--- vim.api.nvim_set_keymap("n", "jk", "<Esc>", { noremap = true, silent = true })
 -- Map "jk" to escape in insert mode
 vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = true, silent = true })
 

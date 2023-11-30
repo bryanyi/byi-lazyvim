@@ -2,6 +2,12 @@
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
 
+-- Auto save when leaving the buffer
+vim.cmd[[ autocmd BufLeave * silent! :wa ]]
+
+
+
+
 -- -- This file is automatically loaded by lazyvim.config.init.
 --
 -- local function augroup(name)
